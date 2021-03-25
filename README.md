@@ -8,7 +8,8 @@ At this moment this repository contains a two tools:
 First one need to replace the header in the `*.meb` files.<br>
 Second one used to remove unneccessary header in the `*.tex` files and auto-rename it to *.dds
 
-Usage:
+Usage:<br>
+* Process a single file:
 `Just drag and drop the file you need to the EXE file of the tool`
 
 TODO:

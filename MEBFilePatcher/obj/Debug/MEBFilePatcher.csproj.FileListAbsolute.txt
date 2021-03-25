@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\ConsoleApp2\bin\Debug\MEBFilePatcher.exe.config
+C:\Users\Admin\source\repos\ConsoleApp2\bin\Debug\MEBFilePatcher.exe
+C:\Users\Admin\source\repos\ConsoleApp2\bin\Debug\MEBFilePatcher.pdb
+C:\Users\Admin\source\repos\ConsoleApp2\obj\Debug\MEBFilePatcher.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ConsoleApp2\obj\Debug\MEBFilePatcher.exe
+C:\Users\Admin\source\repos\ConsoleApp2\obj\Debug\MEBFilePatcher.pdb

@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\TEXFilePatcher\bin\Debug\TEXFilePatcher.exe.config
+C:\Users\Admin\source\repos\TEXFilePatcher\bin\Debug\TEXFilePatcher.exe
+C:\Users\Admin\source\repos\TEXFilePatcher\bin\Debug\TEXFilePatcher.pdb
+C:\Users\Admin\source\repos\TEXFilePatcher\obj\Debug\TEXFilePatcher.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\TEXFilePatcher\obj\Debug\TEXFilePatcher.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TEXFilePatcher\obj\Debug\TEXFilePatcher.exe
+C:\Users\Admin\source\repos\TEXFilePatcher\obj\Debug\TEXFilePatcher.pdb

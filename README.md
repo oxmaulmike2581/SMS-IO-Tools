@@ -9,8 +9,11 @@ First one need to replace the header in the `*.meb` files.<br>
 Second one used to remove unneccessary header in the `*.tex` files and auto-rename it to *.dds
 
 Usage:<br>
-* Process a single file:
+* Process a single file:<br>
 `Just drag and drop the file you need to the EXE file of the tool`
+* Batch processing via `*.cmd` file:<br>
+`for %%a in (*.meb) do MEBFilePatcher.exe %%a`<br>
+`for %%a in (*.tex) do TEXFilePatcher.exe %%a`<br>
 
 TODO:
 * Find more information about textures format in the PS4 versions of the games

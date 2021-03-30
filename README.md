@@ -6,7 +6,7 @@ At this moment this repository contains a two tools:
 * TEX File Patcher
 
 First one need to replace the header in the `*.meb` files.<br>
-Second one used to remove unneccessary header in the `*.tex` files and auto-rename it to *.dds
+Second one used to remove unneccessary header in the `*.tex` files and auto-rename it to `*.dds` (only for PC version at this moment)<br>
 
 Usage:<br>
 * Process a single file:<br>
@@ -16,13 +16,18 @@ Usage:<br>
 `for %%a in (*.tex) do TEXFilePatcher.exe %%a`<br>
 
 TODO:
-* Find more information about textures format in the PS4 versions of the games
-* Find more information about MEB, BML, BMT, VHF structure
-* Find a encryption method used in some vertex coordinates
+* Find a PS4 SDK to get a library to work with GNF images (I know about Noesis but want to build a standalone converter)
+* Find more information about MEB, BML, BMT, VHF structure (More than we have now)
+* Find a encryption method used in some vertex coordinates (I think we need to research the shaders)
 
 More information about these formats (researched by me; will be updated if more information is given) can be found here:
 https://docs.google.com/document/d/12vAnWQXt_Ohd7yoUw0nr1P5y33R4yuO3C66AHtPLTU8/edit?usp=sharing
 
-Both tools are written in .NET C# and requires .NET Framework 4.7.2.
+Some references from other authors:
+* BFF structure: https://forum.xentax.com/viewtopic.php?p=31863#p31863
+* BML/BMT structure and converter: http://projects.pappkartong.se/bmt2xml/
+* SGB structure and converter: http://projects.pappkartong.se/sgbconverter/
+
+Tools in this repo are written in .NET C# and requires .NET Framework 4.7.2.
 
 Sorry for the mistakes in the text, my English is not perfect.

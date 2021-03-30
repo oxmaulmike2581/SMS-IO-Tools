@@ -1,0 +1,2 @@
+D:\zz_test\bin\src\BFF\obj\Debug\BFF.csprojAssemblyReference.cache
+D:\zz_test\bin\src\BFF\obj\Debug\BFF.csproj.CoreCompileInputs.cache

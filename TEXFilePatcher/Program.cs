@@ -10,17 +10,18 @@ namespace TEXFilePatcher
         {
             if (args.Length < 1)
             {
-                throw new ArgumentException("Please provide a path to the input file.");
+                Console.WriteLine("Usage: TEXFilePatcher.exe input.tex");
+                Console.WriteLine(Environment.NewLine + "==========" + Environment.NewLine + "ERROR: No input path given or path is invalid." + Environment.NewLine + "Please press any key to exit." + Environment.NewLine + "==========");
+                Console.ReadLine();
             }
 
-            if (args[0].Contains("_patch"))
-            {
-                throw new Exception("Already patched.");
-            }
+            // shitty code
+            string inputPath = Path.GetFileNameWithoutExtension(args[0]);
+            string outputPath = inputPath + ".dds";
 
             using (FileStream fstream = new FileStream(args[0], FileMode.Open))
             {
-                Console.WriteLine("Reading input stream from " + args[0]);
+                Console.WriteLine("Reading " + inputPath);
 
                 // Start reading from 12th byte
                 fstream.Seek(32, SeekOrigin.Begin);
@@ -44,11 +45,10 @@ namespace TEXFilePatcher
                 numBytesToRead = input.Length;
 
                 // Write the byte array to the other FileStream.
-                using (FileStream fsNew = new FileStream(Path.GetFileNameWithoutExtension(args[0]) + "_patch.dds",
-                    FileMode.Create, FileAccess.Write))
+                using (FileStream fsNew = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
                 {
                     // Write to the output file
-                    Console.WriteLine("Writing output...");
+                    Console.WriteLine("Writing " + outputPath);
                     fsNew.Write(input, 0, numBytesToRead);
                 }
             }
